@@ -1,0 +1,287 @@
+ @media (max-width: 768px) {
+    #page1 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        position: absolute;
+        top: 19vh;
+        left: 5vw;
+        letter-spacing: 7px;
+    }
+    #page1 h2{
+        position: absolute;
+        top: 30vh;
+        left: 15vw;
+        font-size: 3.3vw;
+        font-weight: 100;
+        line-height: 6vh;
+        color: #adadad;
+    }
+    #page1 h4{
+        font-size: 1.9vw;
+        position: absolute;
+        top: 40vh;
+        right: 29vw;
+        color: #adadad;
+        font-weight: 100;
+        line-height: 2.3vh;
+    }
+    #nav>h1{
+        font-size: 6.1vw;
+        letter-spacing: 0.5vw;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 100;
+    }
+    #prt2 h2{
+        display: none;
+    }
+    #prt2 #menu{
+        margin-right: 10px;
+        width: 5.5vw;
+        height: 1.6vh;
+        /* background-color: yellow; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    #page1 img{
+        height: 100vh;
+        width: 90vw;
+        position: relative;
+        margin-top: 58vh;
+        left: 50%;
+        transform: translateX(-50%);
+        object-fit: cover;
+        object-position: center;
+    }
+    #part1{
+        /* height: 90vh; */
+        overflow: hidden;
+        display: flex;
+        perspective: 600px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #page2 #part1 h1{
+        font-size: 37px;
+        padding: 20px;
+        opacity: 0;
+        transform: rotateX(270deg);
+        transform-origin: left bottom;
+    }
+    #part2 #line h6{
+        font-size: 2.5vh;
+        margin-top: -10px;
+    }
+    #part2 #line{
+        height: 4px;
+        width: 30%;
+        background-color: #adadad;
+    }
+    #finish{
+        margin-top: -60vh;
+        /* padding: 6vh 1vw 0vh; */
+        opacity: 0;
+    
+    }  
+    #finish>h1{
+        font-size: 8vw;
+        /* background-color: rgb(2, 88, 88); */
+        margin-bottom: 1vh;
+    }
+    #box1 h2{
+        font-size: 4vw;
+        margin-bottom: 1vh;
+    }
+    #box2 h3{
+        font-size: 2.3vw;
+        margin-bottom: 1vh;
+    }
+    #page4{
+        background-image: url(https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d83ede4c11f8_stars.gif);
+        height: 70vh;
+        background-color: #232025;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #page4 h1{
+        /* background-color: red; */
+        width: 55vw;
+        font-size: 4.4vw;
+        line-height: 4vh;
+    }
+    #page4 h1 span{
+        font-family: 'dancing script';
+        font-size: 9.2vw;
+    }
+    #page4 .h4{
+        margin-top: 8vh;
+        font-size: 3.05vw;
+        text-align: left;
+        font-weight: 100;
+    }
+    #page4 img{
+        margin-top: 10vh;
+    }
+    #page5 h1{
+        font-size: 13vw;
+        text-transform: uppercase;
+        line-height: 6vh;
+    }
+    #page6{
+        height: 30vh;
+        background-color: #232025;
+        text-align: center;
+        position: relative;
+    }
+    #page6 .ques{
+        position: absolute;
+        top: 19.5vh;
+        left: 24.5vw;
+    }
+    .ques1{
+        font-size: 4.8vw;
+    }
+    .ques2{
+        font-size: 4vw;
+        font-weight: 100;
+        margin-top: 1vh;
+        font-family: 'dancing script';
+    }
+    #page6 #option{
+        /* background-color: blue; */
+        position: absolute;
+        top: 35vh;
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #option #op1,#op2{
+    
+        width: 40vw;
+        cursor: pointer;
+        position: relative;
+        height: 10vh;
+    }
+    
+    #op1 h3{
+        font-size: 4.8vw;
+        position: relative;
+        z-index: 999;
+    }
+    #op2 h3{
+        font-size: 4.8vw;
+        position: relative;
+        z-index: 999;
+    }
+    #page7{
+        /* height: 100vh; */
+        background-color: #232025;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    #product3{
+        height: 50vh;
+        z-index: 11;
+    }
+    #product1{
+        left: 3vw;
+        top: 41.5vh;
+        height: 37vh;
+        z-index: 9;
+    }
+    #product4{
+        top: 38vh;
+        height: 44vh;
+        left: 10vw;
+        z-index: 10;
+    }
+    #product2{
+        height: 44vh;
+        left: 43vw;
+        top: 38vh;
+        z-index: 10;
+    }
+    #product5{
+        left: 70.5vw;
+        z-index: 9;
+        height: 37vh;
+        top: 41.5vh;
+    }
+    #op1 .gifimg{
+        height: 40vh;
+        width: 55vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-56%) rotate(15deg);
+        z-index: 9;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+        opacity: 0;
+        will-change: transform;
+    } 
+    #op2 .gifimg{
+        height: 40vh;
+        width: 55vw;
+        position: absolute;
+        opacity: 0;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s;
+        top: 50%;
+        will-change: transform;
+        left: 50%;
+        transform: translate(-50%,-56%) rotate(15deg);
+        z-index: 9;
+    }
+    #topmenu{
+        background-color: #cecece;
+        width: 100vw;
+        height: 65vh;
+        position: absolute;
+        z-index: 10;
+        color: #2b2b2b;
+        transform: translateY(-100%);
+        border-top: 1px solid #000;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.8s;
+        
+    }
+    #topmenu h1{
+        font-size: 13.5vw;
+        margin-top: 15.7vh;
+        margin-left: 4.8vw;
+        color: black;
+        letter-spacing: -1vw;
+        text-transform: uppercase;
+    
+    }
+    #opt{
+        height: 45vh;
+        width: 45vw;
+        margin-left: 5.5vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        flex-wrap: wrap;
+        /* background-color: azure; */
+    }
+    #opt h4{
+        /* background-color: red; */
+        font-size: 3.8vw;
+        font-family: 'montserrat';
+        margin-bottom: 1.2vh;
+        /* background-color: aqua; */
+        font-weight: 500;
+        cursor: pointer;
+        width: 15vw;
+    }
+        }
